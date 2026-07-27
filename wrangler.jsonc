@@ -52,6 +52,10 @@
 			"new_sqlite_classes": ["DOQueueHandler"]
 		}
 	],
+	"vars": {
+		// Logs every cache read and write, including the keys, via wrangler tail.
+		"NEXT_PRIVATE_DEBUG_CACHE": "1"
+	},
 	"observability": {
 		"enabled": true
 	}
