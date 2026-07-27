@@ -31,6 +31,13 @@
 			"bucket_name": "oc-cache-demo-inc-cache"
 		}
 	],
+	"d1_databases": [
+		{
+			"binding": "NEXT_TAG_CACHE_D1",
+			"database_name": "oc-cache-demo-tag-cache",
+			"database_id": "0e559709-00bd-4ba0-b4b1-60f2654cddd3"
+		}
+	],
 	"durable_objects": {
 		"bindings": [
 			{
